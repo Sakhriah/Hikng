@@ -17,16 +17,17 @@ width: 100%;
     width: 100%;
 }
 .toolbar ul li{
+  margin-inline-start: 30px;
       float: left;
      list-style: none;
      font-weight: bold;
-     font-size: 0.85em;
+     font-size: 1.00em;
      padding: 30px 30px 30px 30px;
    }
    #logo{
     float:Left ;
     padding-top:6px;
-    padding-right:350px ;
+    padding-right: 266px;
     padding-bottom: 6px;
     padding-left: 50px;
 
@@ -35,7 +36,7 @@ width: 100%;
     float: left;
     border-bottom: 20px;
     border-radius: 10px;
-    background-color:rgb(195, 191, 188) ;
+    background-color:white ;
     
   }
   .image{
@@ -49,10 +50,10 @@ width: 100%;
     position: absolute;
     color: rgb(222,179,126);
     font-size: 2em;
-    left: 16px;
-    top:28%;
-    padding-left: 6%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+    top:34%;
+    margin-inline-start:11%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   input::placeholder{
@@ -62,9 +63,9 @@ width: 100%;
   #lor{
     position: absolute;
     color: rgb(84,82,79);
-    top: 55%;
-    left: 16px;
-    padding-left: 6%;
+    top: 47%;
+   
+    margin-inline-start: 11%;
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
@@ -76,9 +77,9 @@ width: 100%;
 
     position: absolute;
     color: rgb(84,82,79);
-    top: 63%;
-    left: 16px;
-    padding-left: 9%;
+    top: 55%;
+    
+    margin-inline-start: 9%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
   }
@@ -86,14 +87,14 @@ width: 100%;
     position: absolute;
     color: rgb(84,82,79);
     width: 300px;
-    top: 69%;
-    padding-left: 6%;
+    top: 60%;
+    margin-inline-start: 9%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .lets h1{
     margin: 0 auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: rgb(226,163,85);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 30px;
@@ -101,8 +102,9 @@ width: 100%;
   .lets p{
     margin: 0 auto;
    text-align: center;
-   width: 400px;
-    font-size: 0.8em;
+   max-width: 100%;
+   width: 694px;
+    font-size: 1.8em;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 30px;
   }
@@ -117,6 +119,10 @@ width: 100%;
     align-items: center;
     float: left;
     padding: 50px;
+  }
+  .searchbar{
+    margin-inline-start: 60px;
+    background-color: white;
   }
 
 .threebox {
@@ -233,18 +239,19 @@ align-items: center;
   font-weight: bold;
   text-align: center;
   color: black;
+  width: 100%;
 }
 #h12{
   position: absolute;
   color: rgb(222,179,126) ;
-  bottom: 278px;
-  right: 70px;
+  bottom: 48%;
+  right: 220px;
 }
 #h13{
   position: absolute;
   color: rgb(84,82,79);
-  bottom: 226px;
-  right: 65px;
+  bottom: 42%;
+  right: 220px;
   
 }
 .image9{
@@ -428,8 +435,12 @@ button:hover {
 #size li{
   clear: both;
 }
+.pls{
+  position: relative;
+}
 #circule{
   border-radius: 25px;
+  position: relative;
 }
 .beeka {
   border-radius: 20px;
@@ -449,15 +460,16 @@ button:hover {
 }
 .shape{
   position: absolute;
- 
+ width: 100%;
+ height: 300px;
   
 }
 .shape:nth-child(1) {
-  top: -37px;
+  top: -55px;
 
 }
 .shape:nth-child(2) {
-  top: 602px;
+bottom: -88px;
 
 }
 .photo-shapes {
@@ -518,20 +530,224 @@ button:hover {
   left: 0px;
   height: 400px;
 }
-.shape {
+.shaped {
   
   width: 100%; /* Adjust the width of the shapes */
-  height: 200px; /* Adjust the height of the shapes */
+  height: 300px; /* Adjust the height of the shapes */
   position: absolute;
 }
-.shape-1 {
+.shaped-1 {
   top: -32px;
   height: 220px; 
   left: 0px;
 }
 
-.shape-2 {
-  top: 195px; 
+.shaped-2 {
+  top: 175px; 
   left: 0px; 
   height: 500px;
+}
+.RM{
+  BACKGROUND-COLOR: WHITE;
+    COLOR: RGB(119,108,100);
+    BORDER-RADIUS: 25PX;
+    TOP: 48%;
+
+}
+
+.backimg{
+  background-image: url(/assets/images/Untitled-7.png);
+  padding: 44px;
+  position: absolute;
+  width: 100%;
+  height: 161px;
+  bottom: 0;
+
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  
+  }
+  #logo{
+    float: left;
+    
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    
+  }
+  #search{
+    display: none;
+  }
+  .shape{
+    display: none;
+  }
+  .center-left h1{
+    font-size: 0.6em;
+  }
+  #lor p{
+    display: none;
+  }
+  #more h4{
+    display: none;
+  }
+  .RM{
+
+    
+    font-size: 0.7em;
+    width: 130px;
+    height: 50px;
+  }
+  #read{
+    margin-inline-start: 5%;
+  }
+  .lets h1{
+    font-size: 1.2em;
+  }
+  .lets p{
+    max-width: 250px;
+    font-size: 0.7em;
+    padding-top: 0%;
+  }
+  .card-body{
+   padding:  0;
+   font-size: 10px;
+  }
+  #shm{
+    width: 120px; font-size: 0.9em;
+  }
+  .card-body h1{
+    font-size: 1.3em;
+  }
+  .imgdisc{
+    width: 50%;
+   
+    float: left;
+  }
+  .card{width: 29%;
+  margin: 2%;
+float: left;
+}
+.discount h1{
+  font-size: 1.5em;
+}
+.discount p{
+  font-size: 0.7em;
+}
+.beeka{
+  width: 100px;
+  font-size: 0.7em;
+
+}
+.january h1{
+  font-size: 1.5em;
+}
+.january p{
+  font-size: 0.7em;
+}
+.photo-shapes{
+  top: -122px;
+  height: 273px;
+}
+.mount-text h1{
+  font-size: 1.8em;
+}
+.mount-text p {
+  font-size: 0.8em;
+  max-width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.shapers:nth-child(2){
+
+
+  top: -143px;
+  height: 201px;
+}
+.shapers:nth-child(1)
+{
+  display: none;
+}
+.toolbar ul li {
+  font-size: 0.5em;
+  float: left;
+  width: 10%;  
+  margin: 0 auto;
+}
+.backimg{
+  height: 25PX;
+}
+#h12{
+  font-size: 1em;
+}
+#h13{
+  font-size: 1em;
+
+}
+.threepar{
+  text-align: center;
+  margin: 2%;
+  padding: 5%;
+}
+.threepar p {
+  font-size: 0.6em;
+}
+.threepar h1{
+  font-size: 0.9em;
+}
+.headers{
+  width: 28%;
+}
+.headers2{
+  width: 28%;
+}
+.headers3 {
+  width: 28%;
+}
+.biggg{
+  padding-top: 50px;
+  font-size: 3em;
+}
+.parag h5{
+  font-size: 0.9em;
+}
+.shaped-1{
+  top: -40px;
+  height: 165px; 
+}
+.title-here h1{
+  font-size: 1.6em;
+  padding-bottom: 5px;
+}
+.title-here h5{
+  font-size: 0.9em;
+}
+.shaped-2 {
+  height: 300px;
+  top: 275px;
+}
+.column h3{
+  font-size: 0.75em;
+}
+.column p {
+  font-size: 0.5em;
+}
+.column{
+  height: 75vh;
+}
+.column h5{
+  font-size: 0.75em;
+}
+.last-page ul li{
+  font-size: 0.4em;
+}
+#column1 ul li {
+width: 45px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  
 }
